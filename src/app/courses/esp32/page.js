@@ -128,7 +128,7 @@ export default function ESP32Projects() {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-gray-500">Estimated Time: {project.duration}</span>
-              <Link href={`/courses/esp32/${project.title.toLowerCase().replace(/ /g, '-')}`} className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200">
+              <Link href="/purchase" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200">
                 Start
               </Link>
             </div>

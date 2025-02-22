@@ -5,6 +5,7 @@ import { IoHardwareChip } from 'react-icons/io5'
 import { TbCircuitCapacitor } from 'react-icons/tb'
 import { MdSmartToy } from 'react-icons/md'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 // Changed function name from 'page' to 'Page' to follow React component naming convention
 export default function Page() {
@@ -84,6 +85,9 @@ export default function Page() {
                 </div>
               </motion.div>
             </div>
+            <Link href="/courses/arduino" className="absolute bottom-4 right-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Start
+            </Link>
           </motion.div>
 
           {/* NodeMCU Track */}
@@ -149,6 +153,9 @@ export default function Page() {
                 </div>
               </motion.div>
             </div>
+            <Link href="/courses/nodemcu" className="absolute bottom-4 right-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+              Start
+            </Link>
           </motion.div>
 
           {/* ESP32 Track */}
@@ -214,6 +221,9 @@ export default function Page() {
                 </div>
               </motion.div>
             </div>
+            <Link href="/courses/esp32" className="absolute bottom-4 right-4 bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+              Start
+            </Link>
           </motion.div>
         </div>
       </div>

@@ -15,6 +15,17 @@ export default function Footer() {
             </a>
           </p>
           <p className="text-sm text-gray-500 mt-1">Professional Web Developer</p>
+          <p className="text-sm text-gray-500 mt-2 flex justify-center items-center space-x-2">
+            <span>Buy me a coffee</span>
+            <a
+              href="/courses/donate-page"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Donate
+            </a>
+          </p>
           <div className="flex justify-center space-x-4 mt-4">
             <a 
               href="https://www.youtube.com/@DihasDinsaraSL"
